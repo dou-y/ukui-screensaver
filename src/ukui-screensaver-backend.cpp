@@ -64,7 +64,7 @@ int main(int argc, char *argv[])
 
     // for PowerManager
     fp = popen("xset s 0 0", "r");
-    fclose(fp);
+    pclose(fp);
 //    Q_UNUSED(fp)
 
 
